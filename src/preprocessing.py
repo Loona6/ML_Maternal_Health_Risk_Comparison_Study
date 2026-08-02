@@ -23,4 +23,4 @@ def load_dataset():
     lb = LabelBinarizer()
     lb.fit(y)
     
-    return X, y, feature_names, lb, df
+    return X, y, feature_names, lb, le, df

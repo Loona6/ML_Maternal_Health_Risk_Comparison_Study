@@ -1,0 +1,13 @@
+Classifier,Tier,Clean Recall,Degraded Recall,Recall Drop,Unsafe (>10%)
+Logistic Regression,Tier 1 (Mild),0.7168,0.6595,0.0573,False
+Logistic Regression,Tier 2 (Moderate),0.7168,0.5935,0.1233,True
+Logistic Regression,Tier 3 (Severe),0.7168,0.5271,0.1897,True
+Random Forest,Tier 1 (Mild),0.9081,0.8911,0.0169,False
+Random Forest,Tier 2 (Moderate),0.9081,0.8364,0.0717,False
+Random Forest,Tier 3 (Severe),0.9081,0.7673,0.1408,True
+Support Vector Machine,Tier 1 (Mild),0.8345,0.8004,0.0341,False
+Support Vector Machine,Tier 2 (Moderate),0.8345,0.7501,0.0845,False
+Support Vector Machine,Tier 3 (Severe),0.8345,0.6638,0.1707,True
+XGBoost,Tier 1 (Mild),0.9116,0.8618,0.0499,False
+XGBoost,Tier 2 (Moderate),0.9116,0.7956,0.1161,True
+XGBoost,Tier 3 (Severe),0.9116,0.6898,0.2218,True

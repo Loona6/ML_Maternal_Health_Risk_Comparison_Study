@@ -1,0 +1,5 @@
+Tier,BP_Noise_mmHg,Missing_Rate_Target,Actual_Missing_Rate,Temp_Bias_Low,Temp_Bias_High
+Pristine Baseline,0.0,0.0,0.0,0.0,0.0
+Tier 1 (Mild),5.0,0.05,0.0468,-0.5,-0.1
+Tier 2 (Moderate),10.0,0.15,0.1626,-1.0,-0.3
+Tier 3 (Severe),15.0,0.3,0.3136,-1.5,-0.5

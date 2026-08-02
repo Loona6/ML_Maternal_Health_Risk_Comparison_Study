@@ -39,6 +39,10 @@ HIGH_RISK_RECALL_DROP_THRESHOLD = 0.10
 #
 # Temperature bias represents systematic under-reporting from
 # low-cost or poorly calibrated measurement devices.
+# Sentinel tier names — used to apply tier-specific logic (e.g. seed skipping, flagging).
+PRISTINE_TIER_NAME = "Pristine Baseline"
+SEVERE_TIER_NAME   = "Tier 3 (Severe)"
+
 TIERS = {
     "Pristine Baseline": {
         "missing_rate": 0.00,
