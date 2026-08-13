@@ -8,7 +8,7 @@ def load_dataset():
     """
     try:
         df = pd.read_csv(DATASET_PATH)
-        print(f"[SUCCESS] Loaded Dataset: {df.shape[0]} records[cite: 1].")
+        print(f"[SUCCESS] Loaded Dataset: {df.shape[0]} records.")
     except FileNotFoundError:
         raise FileNotFoundError(f"[ERROR] Could not find '{DATASET_PATH}'.")
 

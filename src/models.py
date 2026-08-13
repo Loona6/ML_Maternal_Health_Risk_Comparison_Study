@@ -5,16 +5,15 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 import warnings
 
-# Try importing XGBoost safely
+
 try:
-    # pyrefly: ignore [missing-import]
     from xgboost import XGBClassifier
     XGBOOST_AVAILABLE = True
 except ImportError:
     XGBOOST_AVAILABLE = False
     print("[WARNING] XGBoost not installed. It will be skipped.")
 
-# Suppress harmless warnings for cleaner output
+
 warnings.filterwarnings('ignore')
 
 def get_models(random_state=42):
