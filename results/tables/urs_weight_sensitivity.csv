@@ -1,0 +1,13 @@
+Weight_Config,Classifier,URS,Rank
+A: Clinical priority (proposed),Random Forest,77.73894354835281,1
+A: Clinical priority (proposed),XGBoost,75.06354007679244,2
+A: Clinical priority (proposed),Support Vector Machine,68.30456030175056,3
+A: Clinical priority (proposed),Logistic Regression,59.031409683519975,4
+B: Equal weights,Random Forest,74.592087591142,1
+B: Equal weights,XGBoost,71.6013085348076,2
+B: Equal weights,Support Vector Machine,64.88174402188525,3
+B: Equal weights,Logistic Regression,57.03221497027155,4
+C: Recall + F1 dominant,Random Forest,78.2264464838319,1
+C: Recall + F1 dominant,XGBoost,75.77274114721898,2
+C: Recall + F1 dominant,Support Vector Machine,68.75128902603105,3
+C: Recall + F1 dominant,Logistic Regression,59.41520989751832,4
