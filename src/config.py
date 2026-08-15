@@ -63,5 +63,20 @@ TIERS = {
         "missing_rate": 0.30,   # Severe resource-constrained environment
         "bp_drift":     15.0,   # ±15 mmHg: poorly calibrated or degraded device
         "temp_bias":    (-1.5, -0.5)  # Significant systematic underestimation
+    },
+    "Ablation: Missingness Only": {
+        "missing_rate": 0.30,
+        "bp_drift":     0.0,
+        "temp_bias":    (0.0, 0.0)
+    },
+    "Ablation: BP Drift Only": {
+        "missing_rate": 0.00,
+        "bp_drift":     15.0,
+        "temp_bias":    (0.0, 0.0)
+    },
+    "Ablation: Temp Bias Only": {
+        "missing_rate": 0.00,
+        "bp_drift":     0.0,
+        "temp_bias":    (-1.5, -0.5)
     }
 }
